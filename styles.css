@@ -4,7 +4,7 @@
 /* ---- color palette (5 colors total) ---- */
 :root {
     --color-bg:          #fafafa;
-    --color-text:        #2d3748;
+    --color-text:        #000001;
     --color-accent:      #4f46e5;
     --color-muted:       #718096;
     --color-header-bg:   #1a202c;
@@ -44,7 +44,7 @@ header {
 }
 
 header h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: 700;
     margin-bottom: 0.5rem;
 }
@@ -114,7 +114,7 @@ a:hover {
 
 /* ---- footer ---- */
 footer {
-    padding: 2rem;
+    padding: 2.5rem;
     text-align: center;
     color: var(--color-muted);
     font-size: 0.875rem;
