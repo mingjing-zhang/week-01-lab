@@ -77,18 +77,20 @@ section p {
     font-size: 1rem;
 }
 
-/* ---- interests list with clean spacing ---- */
+/* ---- interests as horizontal pill tags using flexbox ---- */
 #interests ul {
     list-style: none;
+    display: flex;          /* 启动 flex 模式 */
+    flex-wrap: wrap;        /* 一行装不下就换行 */
+    gap: 0.75rem;           /* 每个 pill 之间间隔 */
 }
 
 #interests li {
-    padding: 0.75rem 0;
-    border-bottom: 1px solid var(--color-border);
-}
-
-#interests li:last-child {
-    border-bottom: none;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--color-border);
+    border-radius: 999px;   /* 大圆角 = 胶囊形 */
+    background-color: #fff;
+    font-size: 0.95rem;
 }
 
 /* ---- contact ---- */
